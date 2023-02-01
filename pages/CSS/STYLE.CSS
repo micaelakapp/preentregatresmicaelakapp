@@ -28,10 +28,12 @@ img {
 }
 
 .container {
-  width: 80;
-  margin: 0% auto;
-  max-width: 1300px;
+  width: 100;
+  height: auto;
+  text-align: center;
+  justify-content: center;
 }
+
 .nav__list {
   list-style: none;
   padding: 0%;
@@ -200,4 +202,33 @@ button {
   text-decoration: none;
   font-size: 24px;
   overflow: hidden;
+}
+
+.video {
+  float: right;
+}
+.containerfaq {
+  background-color: #000;
+  font-family: sans-serif;
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.pfaq {
+  color: white;
+  margin-top: 5rem;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.todofaq {
+  background: url(fondoind.jpg);
+  margin: 0;
+  padding: 0;
+  height: 50rem;
+  background-size: cover;
+  font-family: sans-serif;
 }
