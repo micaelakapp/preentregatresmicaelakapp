@@ -80,10 +80,11 @@ table {
   flex-wrap: wrap;
 }
 .articlecaja {
+  background-color: #f5efef;
   display: flex;
   flex: 0 1 300px;
   flex-direction: column;
-  border: 1px solid black;
+  border: 1px solid rgb(6, 6, 6);
   border-radius: 1rem;
   padding: 2rem;
 }
@@ -93,8 +94,8 @@ table {
 }
 
 .classbutton {
-  background: linear-gradient(to top, rgb(255, 26, 255), rgb(255, 171, 255));
-  color: rgb(6, 6, 6);
+  background: linear-gradient(to top, rgb(118, 122, 125), rgb(74, 72, 72));
+  color: rgb(255, 248, 248);
   padding: 0.5rem;
   border: none;
   border-radius: 1rem;
@@ -108,13 +109,13 @@ table {
 }
 .form-register {
   width: 400px;
-  background: rgb(255, 138, 187);
+  background: rgb(8, 7, 7);
   padding: 30px;
   margin: auto;
   margin-top: 100px;
   border-radius: 4px;
   font-family: "calibri";
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   box-shadow: 7px 13px 37px #000;
 }
 
@@ -166,4 +167,37 @@ button {
 .parrafo {
   text-align: center;
   color: rgb(79, 79, 79);
+}
+.containerconsulta {
+  background: url(fondoind.jpg);
+  margin: 0;
+  padding: 0;
+  height: 50rem;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.containercaja {
+  background: url(fondoind.jpg);
+  margin: 0;
+  padding: 0;
+  height: 50rem;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.buttonconsulta {
+  background-color: white;
+  margin-top: 1rem;
+  text-align: center;
+}
+.btn-neon {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgb(16, 15, 15);
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
 }
