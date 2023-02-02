@@ -208,9 +208,6 @@ button {
   overflow: hidden;
 }
 
-.video {
-  float: right;
-}
 .containerfaq {
   font-family: "Poppins", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
@@ -230,9 +227,6 @@ button {
 
 .todofaq {
   background: url(fondoind.jpg);
-  margin: 0;
-  padding: 0;
-  height: 50rem;
   background-size: cover;
   font-family: sans-serif;
 }
