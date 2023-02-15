@@ -1,0 +1,22 @@
+.containerfaq {
+  font-family: "Poppins", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.pfaq {
+  color: rgb(1, 1, 1);
+  margin-top: 5rem;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.todofaq {
+  background: url(fondoind.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+}

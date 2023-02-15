@@ -1,0 +1,56 @@
+.containercaja {
+  font-family: "Poppins", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  background: url(fondoind.jpg);
+  margin: 0;
+  padding: 0;
+  height: 50rem;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.card {
+  margin: 2rem;
+  max-width: 320px;
+  padding: 2rem;
+  border: 15px 0 0;
+}
+.card--uno {
+  background-color: white;
+}
+.card--dos {
+  background-color: white;
+}
+table {
+  background-color: white;
+  margin: auto;
+}
+.sectioncaja {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.articlecaja {
+  background-color: #f5efef;
+  display: flex;
+  flex: 0 1 300px;
+  flex-direction: column;
+  border: 1px solid rgb(6, 6, 6);
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.articlecaja img {
+  order: -1;
+  align-self: center;
+}
+
+.classbutton {
+  background: linear-gradient(to top, rgb(118, 122, 125), rgb(74, 72, 72));
+  color: rgb(255, 248, 248);
+  padding: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
