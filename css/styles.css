@@ -1,3 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn-neon {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgb(16, 15, 15);
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
+}
+
 .containercaja {
   font-family: "Poppins", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
@@ -8,35 +34,13 @@
   background-size: cover;
   font-family: sans-serif;
 }
-
-.card {
-  margin: 2rem;
-  max-width: 320px;
-  padding: 2rem;
-  border: 15px 0 0;
-}
-
-.card--uno {
-  background-color: white;
-}
-
-.card--dos {
-  background-color: white;
-}
-
-table {
-  background-color: white;
-  margin: auto;
-}
-
-.sectioncaja {
+.containercaja .sectioncaja {
   display: flex;
   justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
 }
-
-.articlecaja {
+.containercaja .articlecaja {
   background-color: #f5efef;
   display: flex;
   flex: 0 1 300px;
@@ -45,13 +49,11 @@ table {
   border-radius: 1rem;
   padding: 2rem;
 }
-
-.articlecaja img {
+.containercaja .articlecaja img {
   order: -1;
   align-self: center;
 }
-
-.classbutton {
+.containercaja .classbutton {
   background: linear-gradient(to top, rgb(118, 122, 125), rgb(74, 72, 72));
   color: rgb(255, 248, 248);
   padding: 0.5rem;
@@ -61,68 +63,30 @@ table {
   cursor: pointer;
 }
 
-.form-register {
-  width: 400px;
-  background: rgb(8, 7, 7);
-  padding: 30px;
-  margin: auto;
-  margin-top: 100px;
-  border-radius: 4px;
-  font-family: "calibri";
-  color: rgb(255, 255, 255);
-  box-shadow: 7px 13px 37px #000;
-}
-
-.form-register h4 {
-  font-size: 22px;
-  margin-bottom: 20px;
-}
-
-.controls {
-  width: 100%;
-  background: #ffffff;
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 16px;
-  border: 1px solid #000000;
-  font-family: "calibri";
-  font-size: 18px;
-  color: rgb(116, 116, 116);
-}
-
-input,
-textarea {
-  width: 100%;
-  margin: bottom 20px;
-  padding: 8px;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  font-size: 17px;
 }
 
-textarea {
-  min-height: 100px;
-  max-height: 200px;
-  max-width: 100%;
+.btn-neon {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgb(16, 15, 15);
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
 }
 
-#menu a,
-button {
-  font-size: 18px !important;
-  font-weight: 600;
+p {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
-#menu a {
-  color: #3f3f3f;
-}
-
-.titulopri {
-  text-align: center;
-  color: rgb(0, 0, 0);
-}
-
-.parrafo {
-  text-align: center;
-  color: rgb(79, 79, 79);
+footer {
+  background-color: rgb(255, 255, 255);
 }
 
 .containerconsulta {
@@ -133,14 +97,55 @@ button {
   background-size: cover;
   font-family: sans-serif;
 }
-
-.buttonconsulta {
+.containerconsulta .form-register {
+  width: 400px;
+  background: rgb(8, 7, 7);
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: rgb(255, 255, 255);
+  box-shadow: 7px 13px 37px #000;
+}
+.containerconsulta #buttonconsulta {
   background-color: white;
   margin-top: 1rem;
   text-align: center;
 }
 
-.containerfaq {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn-neon {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgb(16, 15, 15);
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
+}
+
+.todofaq {
+  background: url(fondoind.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+}
+.todofaq .containerfaq {
   font-family: "Poppins", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
   margin-top: 5rem;
@@ -150,18 +155,37 @@ button {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
-
-.pfaq {
+.todofaq .pfaq {
   color: rgb(1, 1, 1);
   margin-top: 5rem;
   text-align: center;
   margin: 0 10px;
 }
 
-.todofaq {
-  background: url(fondoind.jpg);
-  background-size: cover;
-  font-family: sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn-neon {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgb(16, 15, 15);
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
 }
 
 .pfunciones {
@@ -194,8 +218,34 @@ p {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-h1 {
-  color: black;
+footer {
+  background-color: rgb(255, 255, 255);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn-neon {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgb(16, 15, 15);
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
 }
 
 body {
@@ -205,54 +255,22 @@ body {
   background-color: white;
   text-align: center;
 }
-
-@media (min-width: 760px) {
-  span {
-    font-size: 1.6rem;
-  }
-}
-img {
-  max-width: 100%;
-}
-
-.imagenfondo {
-  max-width: 50rem;
-}
-
-.container {
+body .container {
   width: 100;
   height: auto;
   text-align: center;
   justify-content: center;
 }
-
-.nav__list {
-  list-style: none;
-  padding: 0%;
-  width: 90;
-  max-width: 100% px;
-}
-
-.nav__item {
+body .nav__item {
   margin: 0 0 0;
 }
-
-.nav__link {
-  color: black;
+body .nav__link {
+  color: rgb(18, 17, 17);
   text-transform: uppercase;
   text-decoration: none;
 }
-
-#intro-section {
-  padding: 2rem 0 0;
-}
-
-.display-description {
-  font-size: large;
-}
-
-footer {
-  background-color: white;
+body h1 {
+  color: rgb(18, 17, 17);
 }
 
 /*# sourceMappingURL=styles.css.map */

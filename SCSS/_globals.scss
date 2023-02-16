@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-$primary-color: black;
+$primary-color: rgb(18, 17, 17);
 
 .btn-neon {
   position: relative;
@@ -20,4 +20,8 @@ $primary-color: black;
 p {
   font-family: "Montserrat", sans-serif;
   font-family: "Roboto Condensed", sans-serif;
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
 }

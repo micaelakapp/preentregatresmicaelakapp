@@ -1,58 +1,27 @@
-h1 {
-  color: $primary-color;
-}
-
+@import "globals";
 body {
   font-family: "Poppins", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
   font-family: "Montserrat", sans-serif;
   background-color: white;
   text-align: center;
-}
 
-@media (min-width: 760px) {
-  span {
-    font-size: 1.6rem;
+  .container {
+    width: 100;
+    height: auto;
+    text-align: center;
+    justify-content: center;
   }
-}
 
-img {
-  max-width: 100%;
-}
-
-.imagenfondo {
-  max-width: 50rem;
-}
-
-.container {
-  width: 100;
-  height: auto;
-  text-align: center;
-  justify-content: center;
-}
-
-.nav__list {
-  list-style: none;
-  padding: 0%;
-  width: 90;
-  max-width: 100%px;
-}
-.nav__item {
-  margin: 0 0 0;
-}
-.nav__link {
-  color: $primary-color;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-#intro-section {
-  padding: 2rem 0 0;
-}
-.display-description {
-  font-size: large;
-}
-
-footer {
-  background-color: white;
+  .nav__item {
+    margin: 0 0 0;
+  }
+  .nav__link {
+    color: $primary-color;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  h1 {
+    color: $primary-color;
+  }
 }
