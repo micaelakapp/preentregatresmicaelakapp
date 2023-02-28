@@ -30,7 +30,8 @@ footer {
   background: url(fondoind.jpg);
   margin: 0;
   padding: 0;
-  height: 50rem;
+  height: 40rem;
+  width: 100;
   background-size: cover;
   font-family: sans-serif;
 }
@@ -144,22 +145,16 @@ footer {
   background: url(fondoind.jpg);
   background-size: cover;
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 50;
+  width: 10;
 }
-.todofaq .containerfaq {
-  font-family: "Poppins", sans-serif;
-  font-family: "Source Sans Pro", sans-serif;
-  margin-top: 5rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-}
-.todofaq .pfaq {
-  color: rgb(1, 1, 1);
-  margin-top: 5rem;
-  text-align: center;
-  margin: 0 10px;
+.todofaq .footerfaq {
+  margin: 0;
+  padding: 0;
+  height: 50rem;
+  width: 10;
 }
 
 * {
