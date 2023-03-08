@@ -27,11 +27,8 @@ footer {
 .containercaja {
   font-family: "Poppins", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
-  background: url(fondoind.jpg);
   margin: 0;
   padding: 0;
-  height: 40rem;
-  width: 100;
   background-size: cover;
   font-family: sans-serif;
 }
@@ -53,6 +50,10 @@ footer {
 .containercaja .articlecaja img {
   order: -1;
   align-self: center;
+}
+.containercaja .imagencaja {
+  width: 250px;
+  height: 300px;
 }
 .containercaja .classbutton {
   background: linear-gradient(to top, rgb(118, 122, 125), rgb(74, 72, 72));
@@ -91,7 +92,6 @@ footer {
 }
 
 .containerconsulta {
-  background: url(fondoind.jpg);
   margin: 0;
   padding: 0;
   height: 50rem;
@@ -142,19 +142,16 @@ footer {
 }
 
 .todofaq {
-  background: url(fondoind.jpg);
-  background-size: cover;
+  background-color: pink;
   font-family: sans-serif;
   margin: 0;
   padding: 0;
   height: 50;
   width: 10;
 }
-.todofaq .footerfaq {
-  margin: 0;
-  padding: 0;
-  height: 50rem;
-  width: 10;
+.todofaq .pfaq {
+  width: 200px;
+  height: 200px;
 }
 
 * {
@@ -247,8 +244,11 @@ body {
   font-family: "Poppins", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
   font-family: "Montserrat", sans-serif;
-  background-color: white;
+  background-color: rgb(255, 254, 254);
   text-align: center;
+}
+body .divmenu {
+  background-color: rgb(255, 0, 195);
 }
 body .container {
   width: 100;

@@ -1,17 +1,14 @@
 @import "globals";
 .todofaq {
-  background: url(fondoind.jpg);
-  background-size: cover;
+  background-color: pink;
+
   font-family: sans-serif;
   margin: 0;
   padding: 0;
   height: 50;
   width: 10;
-
-  .footerfaq {
-    margin: 0;
-    padding: 0;
-    height: 50rem;
-    width: 10;
+  .pfaq {
+    width: 200px;
+    height: 200px;
   }
 }

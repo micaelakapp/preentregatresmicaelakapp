@@ -3,9 +3,11 @@ body {
   font-family: "Poppins", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
   font-family: "Montserrat", sans-serif;
-  background-color: white;
+  background-color: rgb(255, 254, 254);
   text-align: center;
-
+  .divmenu {
+    background-color: rgb(255, 0, 195);
+  }
   .container {
     width: 100;
     height: auto;

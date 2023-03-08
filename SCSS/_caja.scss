@@ -2,11 +2,8 @@
 .containercaja {
   font-family: "Poppins", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
-  background: url(fondoind.jpg);
   margin: 0;
   padding: 0;
-  height: 40rem;
-  width: 100;
   background-size: cover;
   font-family: sans-serif;
   .sectioncaja {
@@ -28,6 +25,11 @@
     order: -1;
     align-self: center;
   }
+  .imagencaja {
+    width: 250px;
+    height: 300px;
+  }
+
   .classbutton {
     background: linear-gradient(to top, rgb(118, 122, 125), rgb(74, 72, 72));
     color: rgb(255, 248, 248);
