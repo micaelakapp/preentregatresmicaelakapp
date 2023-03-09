@@ -33,6 +33,7 @@ footer {
   font-family: sans-serif;
 }
 .containercaja .sectioncaja {
+  font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -107,7 +108,11 @@ footer {
   border-radius: 4px;
   font-family: "calibri";
   color: rgb(255, 255, 255);
-  box-shadow: 7px 13px 37px #000;
+  box-shadow: 10px 13px 37px #000;
+}
+.containerconsulta .form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
 }
 .containerconsulta #buttonconsulta {
   background-color: white;
@@ -142,16 +147,11 @@ footer {
 }
 
 .todofaq {
-  background-color: pink;
   font-family: sans-serif;
   margin: 0;
   padding: 0;
   height: 50;
   width: 10;
-}
-.todofaq .pfaq {
-  width: 200px;
-  height: 200px;
 }
 
 * {
@@ -186,6 +186,9 @@ footer {
   margin-top: 25px;
   text-align: center;
   padding: 20px;
+}
+.pfunciones .navfunciones {
+  background-color: fuchsia;
 }
 
 * {
