@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+nav {
+  background-color: rgb(255, 41, 176);
+}
+
 .btn-neon {
   position: relative;
   display: inline-block;
@@ -72,6 +76,10 @@ footer {
   box-sizing: border-box;
 }
 
+nav {
+  background-color: rgb(255, 41, 176);
+}
+
 .btn-neon {
   position: relative;
   display: inline-block;
@@ -99,31 +107,69 @@ footer {
   background-size: cover;
   font-family: sans-serif;
 }
+.containerconsulta #buttonconsulta {
+  background-color: rgb(3, 3, 3);
+  margin-top: 1rem;
+  text-align: center;
+}
 .containerconsulta .form-register {
   width: 400px;
-  background: rgb(8, 7, 7);
+  background: #898989;
   padding: 30px;
   margin: auto;
   margin-top: 100px;
   border-radius: 4px;
   font-family: "calibri";
-  color: rgb(255, 255, 255);
-  box-shadow: 10px 13px 37px #000;
+  color: rgb(8, 7, 7);
+  box-shadow: 7px 13px 37px #000;
 }
 .containerconsulta .form-register h4 {
   font-size: 22px;
   margin-bottom: 20px;
 }
-.containerconsulta #buttonconsulta {
-  background-color: white;
-  margin-top: 1rem;
+.containerconsulta .controls {
+  width: 100%;
+  background: #ff0ace;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #0b0b0b;
+  font-family: "calibri";
+  font-size: 18px;
+  color: white;
+}
+.containerconsulta .form-register p {
+  height: 40px;
   text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+.containerconsulta .form-register a {
+  color: white;
+  text-decoration: none;
+}
+.containerconsulta .form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.containerconsulta .form-register .botons {
+  width: 100%;
+  background: #141416;
+  border: none;
+  padding: 12px;
+  color: rgb(244, 237, 237);
+  margin: 16px 0;
+  font-size: 16px;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+nav {
+  background-color: rgb(255, 41, 176);
 }
 
 .btn-neon {
@@ -147,17 +193,26 @@ footer {
 }
 
 .todofaq {
+  font-family: "Source Sans Pro", sans-serif;
   font-family: sans-serif;
   margin: 0;
   padding: 0;
   height: 50;
   width: 10;
 }
+.todofaq .pclass {
+  font-family: "Poppins", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+nav {
+  background-color: rgb(255, 41, 176);
 }
 
 .btn-neon {
@@ -187,14 +242,15 @@ footer {
   text-align: center;
   padding: 20px;
 }
-.pfunciones .navfunciones {
-  background-color: fuchsia;
-}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+nav {
+  background-color: rgb(255, 41, 176);
 }
 
 .btn-neon {
@@ -221,6 +277,10 @@ footer {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+nav {
+  background-color: rgb(255, 41, 176);
 }
 
 .btn-neon {
